@@ -1,0 +1,30 @@
+{
+    "name": "particle_system",
+    "version": "1.0.0",
+    "description": "Particle system written in typescript",
+    "main": "webpack.config.js",
+    "dependencies": {
+        "ts-loader": "^6.0.4",
+        "typescript": "^3.5.3",
+        "webpack": "^4.36.1",
+        "webpack-cli": "^3.3.6"
+    },
+    "devDependencies": {
+        "webpack-dev-server": "^3.7.2"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "start": "webpack-dev-server --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/icaroj/ts-particle-system.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/icaroj/ts-particle-system/issues"
+    },
+    "homepage": "https://github.com/icaroj/ts-particle-system#readme"
+}
